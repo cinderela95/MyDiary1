@@ -67,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "UPDATE" {
-            let updateVC = segue.destination as! updateItemViewController
+            let updateVC = segue.destination as! UpdateItemViewController
             updateVC.item = filteredItem.reversed()[selectedIndex!]
             
         }

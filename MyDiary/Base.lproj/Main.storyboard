@@ -65,7 +65,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oOw-9r-ku6">
                             <color key="tintColor" red="0.3959605216" green="1" blue="0.082888961750000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="qS8-2l-924" kind="presentation" id="gpc-FU-CUv"/>
+                                <segue destination="qS8-2l-924" kind="presentation" id="6Nl-3z-s4K"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -76,12 +76,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="501.60000000000002" y="122.78860569715144"/>
+            <point key="canvasLocation" x="425" y="123"/>
         </scene>
         <!--Update Item View Controller-->
         <scene sceneID="MX3-lE-oWa">
             <objects>
-                <viewController storyboardIdentifier="UPDATE" id="Fmd-HA-3hY" customClass="updateItemViewController" customModule="MyDiary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UPDATE" id="Fmd-HA-3hY" customClass="UpdateItemViewController" customModule="MyDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Eq-GY-5yD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,12 +152,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hag-NM-5DE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="501.60000000000002" y="863.1184407796103"/>
+            <point key="canvasLocation" x="425" y="931"/>
         </scene>
         <!--Add Item View Controller-->
         <scene sceneID="zeZ-0o-N31">
             <objects>
-                <viewController storyboardIdentifier="ADD" id="qS8-2l-924" customClass="addItemViewController" customModule="MyDiary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ADD" id="qS8-2l-924" customClass="AddItemViewController" customModule="MyDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rpf-Ik-xMw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1y-Bm-o0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1245.5999999999999" y="122.78860569715144"/>
+            <point key="canvasLocation" x="1342" y="123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VnS-aY-Hc7">
@@ -246,7 +246,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehV-Ld-gTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-284" y="123"/>
+            <point key="canvasLocation" x="-479" y="123"/>
         </scene>
     </scenes>
 </document>

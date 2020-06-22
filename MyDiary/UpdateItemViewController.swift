@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class updateItemViewController: UIViewController, UITextViewDelegate {
+class UpdateItemViewController: UIViewController, UITextViewDelegate {
     var item:Item!
     
     @IBOutlet weak var textView: UITextView!

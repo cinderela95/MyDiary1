@@ -13,9 +13,9 @@
 		18C7C7CA2499F837000BC2BE /* MyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C7C7C82499F837000BC2BE /* MyDiary.xcdatamodeld */; };
 		18C7C7CC2499F83F000BC2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7C7CB2499F83F000BC2BE /* Assets.xcassets */; };
 		18C7C7CF2499F83F000BC2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7C7CD2499F83F000BC2BE /* LaunchScreen.storyboard */; };
-		18C7C7D72499F9B0000BC2BE /* addItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7C7D62499F9B0000BC2BE /* addItemViewController.swift */; };
+		18C7C7D72499F9B0000BC2BE /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7C7D62499F9B0000BC2BE /* AddItemViewController.swift */; };
 		18C7C7D92499F9C7000BC2BE /* contentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7C7D82499F9C7000BC2BE /* contentTableViewCell.swift */; };
-		18D82483249B5D2100619E01 /* updateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D82482249B5D2000619E01 /* updateItemViewController.swift */; };
+		18D82483249B5D2100619E01 /* UpdateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D82482249B5D2000619E01 /* UpdateItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		18C7C7CB2499F83F000BC2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C7C7CE2499F83F000BC2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C7C7D02499F840000BC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C7C7D62499F9B0000BC2BE /* addItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemViewController.swift; sourceTree = "<group>"; };
+		18C7C7D62499F9B0000BC2BE /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		18C7C7D82499F9C7000BC2BE /* contentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentTableViewCell.swift; sourceTree = "<group>"; };
-		18D82482249B5D2000619E01 /* updateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateItemViewController.swift; sourceTree = "<group>"; };
+		18D82482249B5D2000619E01 /* UpdateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				18C7C7C52499F837000BC2BE /* Main.storyboard */,
 				18C7C7CB2499F83F000BC2BE /* Assets.xcassets */,
 				18C7C7CD2499F83F000BC2BE /* LaunchScreen.storyboard */,
-				18D82482249B5D2000619E01 /* updateItemViewController.swift */,
-				18C7C7D62499F9B0000BC2BE /* addItemViewController.swift */,
+				18D82482249B5D2000619E01 /* UpdateItemViewController.swift */,
+				18C7C7D62499F9B0000BC2BE /* AddItemViewController.swift */,
 				18C7C7D02499F840000BC2BE /* Info.plist */,
 				18C7C7C82499F837000BC2BE /* MyDiary.xcdatamodeld */,
 			);
@@ -147,10 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D82483249B5D2100619E01 /* updateItemViewController.swift in Sources */,
+				18D82483249B5D2100619E01 /* UpdateItemViewController.swift in Sources */,
 				18C7C7D92499F9C7000BC2BE /* contentTableViewCell.swift in Sources */,
 				18C7C7C42499F837000BC2BE /* ViewController.swift in Sources */,
-				18C7C7D72499F9B0000BC2BE /* addItemViewController.swift in Sources */,
+				18C7C7D72499F9B0000BC2BE /* AddItemViewController.swift in Sources */,
 				18C7C7C22499F837000BC2BE /* AppDelegate.swift in Sources */,
 				18C7C7CA2499F837000BC2BE /* MyDiary.xcdatamodeld in Sources */,
 			);

@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class addItemViewController: UIViewController, UITextViewDelegate {
+class AddItemViewController: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var textView: UITextView!
     
